@@ -334,7 +334,22 @@ set @resources='
    </LocaleResource>
    <LocaleResource Name="Admin.Customers.Customers.List.SearchIpAddress.Hint">
      <Value>Search by IP address.</Value>
-   </LocaleResource>
+   </LocaleResource> 
+  <LocaleResource Name="Account.Fields.ConfirmEmail">
+    <Value>Confirm email</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Fields.ConfirmEmail.Required">
+    <Value>Email is required.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Fields.Email.EnteredEmailsDoNotMatch">
+    <Value>The email and confirmation email do not match.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.EnteringEmailTwice">
+    <Value>Etering email twice</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.EnteringEmailTwice.Hint">
+    <Value>Force entering email twice during registration</Value>
+  </LocaleResource>
 </Language>
 '
 

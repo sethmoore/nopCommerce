@@ -881,6 +881,8 @@ namespace Nop.Web.Controllers
             //enable newsletter by default
             model.Newsletter = _customerSettings.NewsletterTickedByDefault;
 
+            model.EnteringEmailTwice = _customerSettings.EnteringEmailTwice;
+
             return View(model);
         }
 
